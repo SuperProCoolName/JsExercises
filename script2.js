@@ -1,0 +1,1 @@
+alert('more text script2');
