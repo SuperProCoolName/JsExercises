@@ -1,1 +1,0 @@
-alert('koroche ya tebya spas i v blagorodstvo igrat ne budu');
