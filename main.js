@@ -1,13 +1,10 @@
 "use strict";
 
-let a = '10', b = '20';
-console.log(Number(a) + Number(b));
-console.log( Number('2') + Number('3') );
-console.log( 2 + Number('3') );
-console.log( '2' + Number('3') );
-let c = +'2';
-let d = +'3';
-console.log(c + d);
+let a = '5px', b = '6px';
+console.log(parseInt(a) + parseInt(b));
+let c = '5.5px', d = '6.25px';
+console.log(parseInt(c) + parseInt(d))
+console.log(`${parseInt(c) + parseInt(d)}px`)
 /*
 А это тоже комментарий
 но на несколько строк
