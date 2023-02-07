@@ -1,11 +1,7 @@
 "use strict";
 
-let str = "!!!";
-let javaVar = "java", scriptVar = "script";
-let helloVar = "hello", worldVar = "world"; 
-alert(`${str}`); // Тут комментарий короче
-alert(`${javaVar}${scriptVar}`);
-alert(`${helloVar} ${worldVar}`);
+let str = "any text here: outside quotes unique switching locations sweeping";
+alert(`str = ${str}\n${str.length}`); // Тут комментарий короче
 /*
 А это тоже комментарий
 но на несколько строк
