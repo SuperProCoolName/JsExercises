@@ -1,7 +1,11 @@
 "use strict";
 
-let myName = "Zhandulbek", mySurname = "Euntrubedov";
-alert(`${myName} ${mySurname}`); // Тут комментарий короче
+let str = "!!!";
+let javaVar = "java", scriptVar = "script";
+let helloVar = "hello", worldVar = "world"; 
+alert(`${str}`); // Тут комментарий короче
+alert(`${javaVar}${scriptVar}`);
+alert(`${helloVar} ${worldVar}`);
 /*
 А это тоже комментарий
 но на несколько строк
