@@ -1,10 +1,11 @@
 "use strict";
 
-let a = '5px', b = '6px';
-console.log(parseInt(a) + parseInt(b));
-let c = '5.5px', d = '6.25px';
-console.log(parseInt(c) + parseInt(d))
-console.log(`${parseInt(c) + parseInt(d)}px`)
+let a = 2, b = 5;
+alert(String(a) + String(b));
+let c = 176542;
+alert(String(c).length);
+let d = 1235, e = 5675;
+alert(`${String(d).length + String(e).length}`);
 /*
 А это тоже комментарий
 но на несколько строк
