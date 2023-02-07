@@ -1,12 +1,7 @@
 "use strict";
 
-let a = "never";
-console.log(a);
-let b = "gonna", c = "give", d = "you", e = "up";
-console.log(b, c, d, e);
-let booleanVar = true, stringVar = "123", intVar = 123, undefinedVar = undefined, nullVar = null;
-console.log(booleanVar, stringVar, intVar, undefinedVar, nullVar);
-alert(errorBug);
+const Pi = 3.14159265359, r = 15;
+alert(`Area with r = 15: ${Pi * r ** 2}`);
 /*
 А это тоже комментарий
 но на несколько строк
