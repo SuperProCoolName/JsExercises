@@ -1,6 +1,7 @@
 "use strict";
 
-alert(`${2 ** 10}`); // Тут комментарий короче
+let myName = "Zhandulbek", mySurname = "Euntrubedov";
+alert(`${myName} ${mySurname}`); // Тут комментарий короче
 /*
 А это тоже комментарий
 но на несколько строк
