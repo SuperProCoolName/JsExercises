@@ -1,13 +1,16 @@
 "use strict";
 
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt  = `aaa + ${str1} + bbb + ${str2} + ccc`;
-let str = `a
-b
-c`
-alert(`${txt}`); // Тут комментарий короче
+let a, b = null;
+alert(`${a}`);
+alert(`${b}`);
+let c = true, d = false;
+alert(`${c}`);
+alert(`${d}`);
+let str1 = "any text here", str2 = "something something anything";
+let str = str1 * str2;
 alert(`${str}`);
+alert(`${10 / 0}`);
+alert(`${-10 / 0}`);
 /*
 А это тоже комментарий
 но на несколько строк
