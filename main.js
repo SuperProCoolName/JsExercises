@@ -1,11 +1,12 @@
 "use strict";
 
-let a = 2, b = 5;
-alert(String(a) + String(b));
-let c = 176542;
-alert(String(c).length);
-let d = 1235, e = 5675;
-alert(`${String(d).length + String(e).length}`);
+console.log(true + 3);
+console.log(true + true);
+console.log(true - true);
+console.log(true + false);
+console.log('1' + true);
+console.log( String(true) + 1 );
+console.log( String(true) + Number(true) );
 /*
 А это тоже комментарий
 но на несколько строк
