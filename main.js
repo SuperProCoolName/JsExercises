@@ -1,7 +1,13 @@
 "use strict";
 
-let str = "any text here: outside quotes unique switching locations sweeping";
-alert(`str = ${str}\n${str.length}`); // Тут комментарий короче
+let str1 = 'xxx';
+let str2 = 'yyy';
+let txt  = `aaa + ${str1} + bbb + ${str2} + ccc`;
+let str = `a
+b
+c`
+alert(`${txt}`); // Тут комментарий короче
+alert(`${str}`);
 /*
 А это тоже комментарий
 но на несколько строк
