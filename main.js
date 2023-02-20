@@ -1,4 +1,7 @@
 "use strict";
 
-let obj = { x: 1, y: 2, z: 3 };
-document.write(`Object.keys(obj).length = ${Object.keys(obj).length}`);
+let obj = { x: 1, y: 2, z: 3, w: 4 };
+let key = "w";
+document.write(
+  `obj = { x: 1, y: 2, z: 3, w: 4 }<br>key = "w"<br>obj[key] = ${obj[key]}`
+);
