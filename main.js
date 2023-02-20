@@ -1,7 +1,20 @@
 "use strict";
 
-if (num == 0 || (num > 1 && num < 5)) {
-  // порядок: 1 - num == 0, 2 - num > 1 И num < 5
+let num = 3;
+
+if ((num > 5 && num < 10) || num == 20) {
+  console.log("+++");
+} else {
+  console.log("---");
+}
+
+if (num > 5 || (num > 0 && num < 3)) {
+  console.log("+++");
+} else {
+  console.log("---");
+}
+
+if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
   console.log("+++");
 } else {
   console.log("---");
