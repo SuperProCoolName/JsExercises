@@ -1,7 +1,13 @@
 "use strict";
 
-let test = Math.floor(Math.random() * 15);
-console.log(`test = ${test}`);
-if (test !== 10) {
-  console.log(`test !== ${test}`);
+let test1 = Math.floor(Math.random() * 15);
+console.log(test1);
+let test2 = Math.floor(Math.random() * 15);
+console.log(test2);
+if (test1 < test2) {
+  console.log(`test1 < test2`);
+} else if (test1 > test2) {
+  console.log(`test1 > test2`);
+} else {
+  console.log(`test1 === test2`);
 }
