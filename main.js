@@ -1,13 +1,9 @@
 "use strict";
 
-let test = { x: 1, y: 2, z: 3 };
-console.log(test);
-console.log(test.x);
-let test_1 = [1, 2, 3];
-console.log(test_1);
-console.log(test_1[1]);
-let test2 = 1;
-
-console.log(test_1);
-
-console.log(test_1[test2]);
+let arr1 = [1, 2, 3];
+let arr2 = arr1;
+arr1[0] = "a";
+console.log(arr2);  
+arr2[1] = "b";
+console.log(arr1);
+console.log(arr2);
