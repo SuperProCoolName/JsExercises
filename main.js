@@ -1,7 +1,6 @@
 "use strict";
 
-let obj = { x: 1, y: 2, z: 3, w: 4 };
-let key = "w";
-document.write(
-  `obj = { x: 1, y: 2, z: 3, w: 4 }<br>key = "w"<br>obj[key] = ${obj[key]}`
-);
+let obj = { x: 1, y: 2, z: 3 };
+console.log(obj["x"]); // задание 1
+let key = "z";
+console.log(obj[key]);
