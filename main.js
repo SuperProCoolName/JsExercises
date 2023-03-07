@@ -1,10 +1,14 @@
 "use strict";
 
 let min = Math.ceil(1);
-let max = Math.floor(32);
-let day = Math.floor(Math.random() * (max - min + 1) + min);
-console.log(day);
-if (day >= 1 && day < 10) document.write("1 декада");
-else if (day > 10 && day < 20) document.write("2 декада");
-else if (day > 20 && day <= 31) document.write("3 декада");
-else document.write("ошибка");
+let max = Math.floor(110);
+let num = Math.floor(Math.random() * (max - min + 1) + min);
+document.write(`num = ${num}\n`);
+var sum = 0;
+var numString = String(num);
+for (var i = 0; i < numString.length; i++) {
+  sum = sum + parseInt(numString[i]);
+}
+if (num < 10) document.write("сумма цифр однозначна");
+else if (num > 10 && num < 100) document.write(`сумма цифр = ${sum}`);
+else document.write("сумма цифр двухзначна");
